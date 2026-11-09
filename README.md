@@ -176,17 +176,3 @@ Practica_06_Uniformidad/
 ```
 
 Las carpetas de resultados se crean o actualizan al ejecutar los análisis; no es obligatorio descargarlas previamente desde GitHub.
-
-## 9. Problemas comunes
-
-- **`git: command not found`:** ejecuta `sudo apt install git`.
-- **`Repository not found`:** comprueba que reemplazaste la URL de ejemplo por la real y que tienes acceso al repositorio.
-- **`destination path ... already exists`:** no vuelvas a clonar sobre una carpeta existente; entra en ella y utiliza `git pull` si ya es tu copia del repositorio.
-- **`python: command not found`:** activa el entorno virtual o utiliza `python3`.
-- **`No module named scipy` / `matplotlib`:** activa `.venv` y ejecuta `python -m pip install -r requirements.txt`.
-- **`javac: command not found`:** instala el JDK con `sudo apt install openjdk-17-jdk`.
-- **`Could not find or load main class Practica06`:** compila ambas clases y ejecuta Java desde la carpeta principal usando `-cp java/bin`.
-
-## 10. Declaración de uso de IA
-
-Se utilizó ChatGPT, desarrollado por OpenAI, como apoyo para organizar el código, documentar el procedimiento y redactar este README. La revisión, ejecución, comprensión y presentación académica corresponden al estudiante.
